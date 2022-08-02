@@ -1,0 +1,133 @@
+{
+    "manufacturer": "Karl Buchka",
+    "keyboard_name": "thinkpad701c",
+    "maintainer": "basketofkittens",
+    "bootloader": "halfkay",
+    "diode_direction": "ROW2COL",
+    "features": {
+        "bootmagic":true,
+        "command": false,
+        "console": true,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false
+    },
+    "matrix_pins": {
+        "cols": ["C6","C7","E26","A5","A14","A15","A16","B18","C5","D1","C0","B0","B1","B3","B2","D5"],
+        "rows": ["B16","B17","D0","A12","A13","D7","D4","D2","D3","C3","C4","C11","C10"]
+    },
+    "processor": "MK66FX1M0",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x345C",
+        "vid": "0x1209"
+    },
+    "layouts": {
+        "LAYOUT_tkl_ansi": {
+            "layout": [
+                { "matrix": [0, 6]},
+                { "matrix": [0, 13]},
+                
+                { "matrix": [1, 0]},
+                { "matrix": [1, 10]},
+                { "matrix": [1, 11]},
+                { "matrix": [1, 12]},
+                { "matrix": [1, 13]},
+                { "matrix": [1, 14]},
+                
+                { "matrix": [2, 0]},
+                { "matrix": [2, 1]},
+                { "matrix": [2, 2]},
+                
+                { "matrix": [2, 4]},
+                { "matrix": [2, 5]},
+                { "matrix": [2, 6]},
+                { "matrix": [2, 7]},
+                
+                { "matrix": [2, 10]},
+                { "matrix": [2, 11]},
+                { "matrix": [2, 12]},
+                { "matrix": [2, 13]},
+                { "matrix": [2, 14]},
+                { "matrix": [2, 15]},
+
+                { "matrix": [3, 3]},
+                { "matrix": [3, 7]},
+                
+                { "matrix": [3, 9]},
+                { "matrix": [3, 10]},
+                { "matrix": [3, 11]},
+                
+                { "matrix": [3, 13]},
+                { "matrix": [3, 14]},
+                { "matrix": [3, 15]},
+                
+                { "matrix": [4, 11]},
+                { "matrix": [4, 12]},
+
+                { "matrix": [5, 3]},
+                { "matrix": [5, 11]},
+                { "matrix": [5, 13]},
+
+                { "matrix": [6, 8]},
+                { "matrix": [6, 9]},
+                { "matrix": [6, 11]},
+                { "matrix": [6, 13]},
+                { "matrix": [6, 15]},
+                
+                { "matrix": [7, 0]},
+                { "matrix": [7, 1]},
+                { "matrix": [7, 2]},
+                { "matrix": [7, 3]},
+                { "matrix": [7, 4]},
+                { "matrix": [7, 5]},
+                { "matrix": [7, 6]},
+                { "matrix": [7, 15]},
+
+                { "matrix": [8, 0]},
+                { "matrix": [8, 1]},
+                { "matrix": [8, 2]},
+                { "matrix": [8, 4]},
+                { "matrix": [8, 5]},
+                { "matrix": [8, 6]},
+                { "matrix": [8, 7]},
+                { "matrix": [8, 8]},
+                { "matrix": [8, 9]},
+                { "matrix": [8, 10]},
+                { "matrix": [8, 11]},
+                { "matrix": [8, 12]},
+                { "matrix": [8, 13]},
+                { "matrix": [8, 14]},
+                
+                { "matrix": [9, 1]},
+                { "matrix": [9, 3]},
+                { "matrix": [9, 7]},
+                { "matrix": [9, 8]},
+                { "matrix": [9, 11]},
+                { "matrix": [9, 13]},
+                
+                { "matrix": [10, 1]},
+                { "matrix": [10, 2]},
+                { "matrix": [10, 3]},
+                { "matrix": [10, 4]},
+                { "matrix": [10, 5]},
+                { "matrix": [10, 6]},
+                { "matrix": [10, 7]},
+                { "matrix": [10, 8]},
+                { "matrix": [10, 11]},
+                { "matrix": [10, 13]},
+                
+                { "matrix": [11, 9]},
+                { "matrix": [11, 10]},
+                { "matrix": [11, 11]},
+                { "matrix": [11, 12]},
+                { "matrix": [11, 13]},
+                { "matrix": [11, 14]},
+                { "matrix": [11, 15]},
+                
+                { "matrix": [12, 15]}
+            ]
+        }
+    }
+}
