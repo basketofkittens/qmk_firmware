@@ -20,7 +20,7 @@
 void clock_init(void) {}
 
 void clock_lo(void) {
-    palSetLineMode(PS2_CLOCK_PIN, PAL_MODE_OUTPUT_OPENDRAIN);
+    palSetLineMode(PS2_CLOCK_PIN, PAL_MODE_OUTPUT_PUSHPULL);
     palWriteLine(PS2_CLOCK_PIN, PAL_LOW);
 }
 
@@ -40,7 +40,7 @@ bool clock_in(void) {
 void data_init(void) {}
 
 void data_lo(void) {
-    palSetLineMode(PS2_DATA_PIN, PAL_MODE_OUTPUT_OPENDRAIN);
+    palSetLineMode(PS2_DATA_PIN, PAL_MODE_OUTPUT_PUSHPULL);
     palWriteLine(PS2_DATA_PIN, PAL_LOW);
 }
 

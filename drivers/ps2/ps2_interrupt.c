@@ -242,6 +242,7 @@ DONE:
     data   = 0;
     parity = 1;
 RETURN:
+    PS2_INT_ON();
     return;
 }
 

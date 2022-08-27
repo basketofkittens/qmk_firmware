@@ -48,7 +48,7 @@
 /*
  * SERIAL driver system settings.
  */
-#define KINETIS_SERIAL_USE_UART4 TRUE
+//#define KINETIS_SERIAL_USE_UART4 TRUE
 
 /*
  * USB driver settings
@@ -59,7 +59,7 @@
 /*
  * I2C driver settings
  */
-#define KINETIS_I2C_USE_I2C0 TRUE
-#define KINETIS_I2C_I2C0_PRIORITY 4
+//#define KINETIS_I2C_USE_I2C0 TRUE
+//#define KINETIS_I2C_I2C0_PRIORITY 4
 
 #endif /* _MCUCONF_H_ */

@@ -84,6 +84,7 @@ void ps2_mouse_task(void) {
 #ifdef PS2_MOUSE_ENABLE_SCROLLING
         mouse_report.v = -(ps2_host_recv_response() & PS2_MOUSE_SCROLL_MASK) * PS2_MOUSE_V_MULTIPLIER;
 #endif
+        if (debug_mouse) ps2_mouse_print_report(&mouse_report);
     } else {
         if (debug_mouse) print("ps2_mouse: fail to get mouse packet\n");
         return;
